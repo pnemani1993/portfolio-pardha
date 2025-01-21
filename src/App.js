@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import './Skills';
+import './Skills.css';
 
 function App() {
   return (
+    <>
+    <Skills/>
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,7 +22,22 @@ function App() {
         </a>
       </header>
     </div>
+    </>
+
   );
 }
+
+function Skills(){
+  return (
+      <div className="Skills">
+        <header className="Skills-header">
+          <p>
+            This is a trial for the new division
+          </p>
+        </header>
+      </div>
+    );
+}
+
 
 export default App;

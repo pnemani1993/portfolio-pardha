@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Skills {
+    @apply w-[15%] min-h-screen flex flex-col items-center justify-center bg-black shadow-[0_2px_4px_rgba(0,0,0,0.1)] mx-auto my-0 px-8 py-16 rounded-lg absolute left-0;
+  }
+  .Skills-header {
+    @apply flex flex-col gap-6;
+  }
